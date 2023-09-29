@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="night-mode-off.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.4434429"
+     inkscape:cx="8.1018257"
+     inkscape:cy="7.9893004"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     style="fill:#444454;stroke-width:4.57138"
+     d="m 4.571431,32 c 0,17.673138 14.32686,32 32,32 8.800904,0 16.822862,-4.036539 22.857138,-10.44569 -2.368,0.60338 -4.416,1.302828 -6.857138,1.302828 -16.410969,0 -29.714296,-13.302828 -29.714296,-29.714283 C 22.857135,14.93486 28.020126,5.44 36.571431,0 c -17.762294,0 -32,14.32686 -32,32 z"
+     id="path1" />
+</svg>

@@ -1,0 +1,12 @@
+diff --git a/usr/bin/clamtk b/usr/bin/clamtk
+index b458f66..fbbc89d 100755
+--- a/usr/bin/clamtk
++++ b/usr/bin/clamtk
+@@ -42,6 +42,7 @@ use Locale::gettext;
+ use POSIX 'locale_h';
+ textdomain( 'clamtk' );
+ setlocale( LC_ALL, '' );
++setlocale( LC_TIME, 'C' );
+ bind_textdomain_codeset( 'clamtk', 'UTF-8' );
+ 
+ my $arg = decode( 'utf8', $ARGV[ 0 ] );

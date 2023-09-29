@@ -1,0 +1,10 @@
+Package: tint2-theme-link
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
+Depends: tint2, fonts-noto, papirus-icon-theme, jgmenu-theme-link, uni-session, xdotool, zenity, pulseaudio, alsa-utils, bc, light, acpi, redshift, gsimplecal
+Recommends: uni-control-center, pcmanfm, firefox-esr, uni-desktop-jwm
+Section: unknown
+Priority: optional
+Description: tint2 theme for uni desktop
+ Created with reference to https://github.com/nwg-piotr/tint2-executors

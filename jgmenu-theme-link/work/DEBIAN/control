@@ -1,0 +1,9 @@
+Package: jgmenu-theme-link
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
+Depends: jgmenu, papirus-icon-theme
+Recommends: uni-desktop-jwm, tint2-theme-link
+Section: unknown
+Priority: optional
+Description: jgmenu theme for uni desktop
