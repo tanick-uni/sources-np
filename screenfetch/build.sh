@@ -4,7 +4,7 @@
 ##License: MIT
 
 cd $(dirname "$0")
-apt download screenfetch
+apt download screenfetch=3.9.1-2
 dpkg -x screenfetch_3.9.1-2_all.deb work
 dpkg -e screenfetch_3.9.1-2_all.deb work/DEBIAN
 
@@ -13,7 +13,8 @@ mkdir usr/libexec
 mv usr/bin/screenfetch usr/libexec/screenfetch
 cat << 'EOT' > usr/bin/screenfetch
 #!/bin/bash
-/usr/libexec/screenfetch -D "uni-os 1.0 (NP)" "$@"
+distro=$(cat /etc/os-release | grep PRETTY_NAME= | cut -d \" -f 2)
+/usr/libexec/screenfetch -D "${distro}" "$@"
 EOT
 chmod +x usr/bin/screenfetch
 cd ..
