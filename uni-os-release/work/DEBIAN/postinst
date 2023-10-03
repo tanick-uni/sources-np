@@ -1,12 +1,12 @@
 #!/bin/bash
 
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME="uni-os 1.0 (NP)"/' /etc/os-release
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME="uni-os 1.0 (NP)"/' /usr/lib/os-release
+
 if [ ! -e /etc/uni-os-release/uni-os-release.conf ]; then
     echo "grub_configuration=yes" >> /etc/uni-os-release/uni-os-release.conf
     echo "grub_update=yes" >> /etc/uni-os-release/uni-os-release.conf
 fi
-
-sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME="uni-os 1.0 (NP)"/' /etc/os-release
-sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME="uni-os 1.0 (NP)"/' /usr/lib/os-release
 
 grub_conf=$(cat /etc/uni-os-release/uni-os-release.conf | grep "grub_configuration" | cut -d = -f 2)
 grub_update=$(cat /etc/uni-os-release/uni-os-release.conf | grep "grub_update" | cut -d = -f 2)
